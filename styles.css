@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,body,html {
+    margin: 0;
+    padding:0;
+}
+
+body, html {
+    height: 100%;
+}
+
+div .background {
+    display: block
+};
+.background img {
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header span {
+    position: absolute;
+    top: 24px;
+    left: 16px;
+    font-family: 'Pacifico', 'cursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    
+    color: rgb(255, 155, 153); 
+
+}
+
+.nav-bar {
+    position: absolute;
+    left: 50%;
+    top: 38px;
+}
+ul{
+    display:table;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+li{
+    padding-right: 24px;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:  'Noto Sans JP', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* later check for responsive*/
+
+}
+
+main h1 {
+position: absolute;
+left: 566px;
+top: 195px;
+
+font-family: 'Pacifico';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 112px;
+
+/* pink */
+
+color: #FF9B99;
+
+}
+
+main h3 {
+    position: absolute;
+left: 614px;
+top: 288px;
+
+font-family: 'Noto Sans JP', sans-serif;;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.description p{
+
+position: absolute;
+width: 700px;
+height: 107px;
+left: calc(50% - 700px/2);
+top: 384px;
+
+font-family: 'Noto Sans JP';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+text-align: center;
+
+color: #000000;
+}
+
+.button{
+    position: absolute;
+left: 625px;
+top: 540px;
+
+font-family: 'Noto Sans JP';
+font-style: normal;
+font-weight: 700;
+font-size: 26.5091px;
+line-height: 38px;
+padding: 20px;
+cursor: pointer;
+
+/* verde */
+
+color: rgb(152, 206, 0);
+
+
+border: 4.3px solid #98CF0F;
+border-radius: 43px;
+}
